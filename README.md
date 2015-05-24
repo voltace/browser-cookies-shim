@@ -1,6 +1,9 @@
 # browser-cookies-shim
 **This is a shim for the tiny cookies library [browser-cookies](https://www.github.com/voltace/browser-cookies)**
 
+[![Build Status][travis-image]][travis-url]
+[![Dev Dependencies Status][david-image]][david-url]
+
 This shim allows browser-cookies to run on node, though it won't actually set/get/erase any cookies at all. It's mainly useful in case javascipt client code needs to be executed on node without raising any errors (see [voltace/browser-cookies#3](https://github.com/voltace/browser-cookies/pull/3) for the rationale).
 
 ### Installation
@@ -28,3 +31,10 @@ Now add the following to the package.json in your project:
 ```
 
 This setup will ensure browsers will load `browser-cookies` while node will load `browser-cookies-shim`.
+
+
+[travis-url]: https://travis-ci.org/voltace/browser-cookies-shim
+[travis-image]: https://img.shields.io/travis/voltace/browser-cookies-shim.svg
+
+[david-url]: https://david-dm.org/voltace/browser-cookies-shim#info=devDependencies
+[david-image]: https://img.shields.io/david/dev/voltace/browser-cookies-shim.svg
