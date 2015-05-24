@@ -1,0 +1,32 @@
+{
+  "name": "browser-cookies-shim",
+  "description": "Shim for the tiny cookies library browser-cookies",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENCE"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test.js"
+  },
+  "author": {
+    "name": "Voltace",
+    "email": "support@voltace.com",
+    "url": "http://www.voltace.com/"
+  },
+  "license": "Unlicence",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/voltace/browser-cookies-shim"
+  },
+  "bugs": {
+    "url": "https://github.com/voltace/browser-cookies-shim/issues"
+  }
+}
