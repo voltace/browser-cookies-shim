@@ -1,6 +1,7 @@
 # browser-cookies-shim
 **This is a shim for the tiny cookies library [browser-cookies](https://www.github.com/voltace/browser-cookies)**
 
+[![NPM Version][npm-version-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Dev Dependencies Status][david-image]][david-url]
 
@@ -32,6 +33,8 @@ Now add the following to the package.json in your project:
 
 This setup will ensure browsers will load `browser-cookies` while node will load `browser-cookies-shim`.
 
+[npm-url]: https://npmjs.org/package/browser-cookies-shim
+[npm-version-image]: https://img.shields.io/npm/v/browser-cookies-shim.svg
 
 [travis-url]: https://travis-ci.org/voltace/browser-cookies-shim
 [travis-image]: https://img.shields.io/travis/voltace/browser-cookies-shim.svg
