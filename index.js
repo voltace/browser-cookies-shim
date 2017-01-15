@@ -9,3 +9,7 @@ exports.get = function(name) {
 
 exports.erase = function(name, options) {
 };
+
+exports.all = function() {
+  return {};
+};

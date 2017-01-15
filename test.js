@@ -19,4 +19,9 @@ describe('test suite', function() {
   it('erase cookie', function() {
     expect(this.cookies.erase('name')).to.be.undefined;
   });
+
+  it('get all cookies', function() {
+    expect(this.cookies.all()).to.be.a('object');
+	expect(Object.keys(this.cookies.all())).to.have.lengthOf(0);
+  });
 });
