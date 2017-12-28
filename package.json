@@ -10,8 +10,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "chai": "3.x.x",
-    "mocha": "3.x.x"
+    "chai": "4.x.x",
+    "mocha": "4.x.x"
   },
   "scripts": {
     "test": "node ./node_modules/mocha/bin/mocha test.js"
